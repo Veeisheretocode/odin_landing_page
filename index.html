@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     
     <div class="header">
-        <p>HEADER LOGO</p>
+        <span class="hero-header-logo">HEADER LOGO</span>
         <ul>
             <li><a href="#">Header Link 1</a></li>
             <li><a href="#">Header Link 2</a></li>
@@ -21,37 +22,34 @@
     <div class="content">
 
         <div class="section1">
-            <p>THIS WEBSITE IS AWESOME</p>
-            <P>THIS WEBSITE IS AWESOME, This text is smaller, use different font and color</P>
-            <button>Sign Up</button>
-            <img src="" alt="PLACEHOLDER IMAGE">
+            <div class="left">
+                <span class="line-big">THIS WEBSITE IS AWESOME</span>
+                <span class="line-small">This website is awesome, This text is smaller, use different font and color</span>
+                <button class="hero-button">Sign Up</button>
+            </div>
+            <div class="right"><img src="" alt="PLACEHOLDER IMAGE" class="hero-placeholder"></div>
         </div>
 
-         <div class="section2">
-            <p>SOME RANDOM INFORMATION</p>
-            
-            <img src="" alt="PLACEHOLDER IMAGE">
-            <p>some random text about image</p>
-
-            <img src="" alt="PLACEHOLDER IMAGE">
-            <p>some random text about image</p>
-
-            <img src="" alt="PLACEHOLDER IMAGE">
-            <p>some random text about image</p>
-
-            <img src="" alt="PLACEHOLDER IMAGE">
-            <p>some random text about image</p>
+         
+        <div class="section2">
+            <span>SOME RANDOM INFORMATION</span>
+            <div class="images">
+                <img src="" alt="PLACEHOLDER IMAGE" class="sectwoimg">
+                <img src="" alt="PLACEHOLDER IMAGE" class="sectwoimg">
+                <img src="" alt="PLACEHOLDER IMAGE" class="sectwoimg">
+                <img src="" alt="PLACEHOLDER IMAGE" class="sectwoimg">
+            </div>
         </div>
 
 
         <div class="section3">
-            <p>THIS is some random quote that is solely here to fill up the space. All you need to know is that this is supposed to look nicer after we are done applying the CSS</p>
-            <P>- Gautam Buddha</P>
+                <p class="quote-text">This is some random quote that is solely here to fill up the space. All you need to know is that this is supposed to look nicer after we are done applying the CSS</p>
+                <p class="quote-author">- Gautam Buddha</p>
         </div>
 
         <div class="section4">
-            <p>CALL TO ACTION! IT'S TIME!</p>
-            <P>Signup for our product by clicking this button to our right!</P>
+            <span>CALL TO ACTION! IT'S TIME!</span>
+            <span>Signup for our product by clicking this button to our right!</span>
             <button>Sign Up</button>
         </div>
 
